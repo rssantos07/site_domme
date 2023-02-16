@@ -1,0 +1,58 @@
+#sessao_img img{
+    height: 90vh;
+    margin-top: 2px;
+    background-color: #000000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.navbar {
+    font-family: 'Cinzel', serif;
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+header .container .nav .nav-link,
+header .navbar-brand {
+    color: #fff;
+}
+
+.titulo h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+}
+
+.titulo p {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+#sessao p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.text-sessao {
+    font-weight: bold;
+}

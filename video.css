@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.navbar {
+    font-family: 'Cinzel', serif;
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+header .container .nav .nav-link,
+header .navbar-brand {
+    color: #fff;
+}
+
+.titulo h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+}
+
+.titulo p {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+
+#videos_img {
+    background-color: #000000;
+}
+#videos_img img{
+    height: 91vh;
+    opacity: 0.4;
+}
+
+
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .video-container video {
+    margin-right: 20px;
+  }
+  
+  .gallery-container {
+    flex-basis: 100%;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin-right: 10px;
+  }
+  
+  .gallery-video {
+    height: 130px;
+    width: 180px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .gallery-video:hover {
+    border: 2px solid black;
+  }
+  

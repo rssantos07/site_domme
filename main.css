@@ -1,0 +1,75 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    font-family: 'Cinzel', serif;
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+header .container .nav .nav-link,
+header .navbar-brand {
+    color: #fff;
+}
+#home {
+    background-color: #000000;
+}
+
+#home .carousel img {
+    height: 91vh;
+    opacity: 0.4;
+}
+
+.carousel h1 {
+    font-size: 100px;
+    font-family: 'Cinzel', serif;
+}
+
+.carousel p {
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Cinzel', serif;
+}
+
+.sobre p {
+    font-size: 20px;
+    padding: 0 100px;
+}
+
+.texto-img {
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .sobre p {
+        font-size: 20px;
+        padding: 0 ;
+        text-align: left;
+    }
+    #home .carousel h1 {
+        font-size: 30px;
+    }
+    #home .carousel p {
+        font-size: 30px;
+    }
+
+  }
+
+
+
+
+
