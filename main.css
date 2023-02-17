@@ -54,6 +54,48 @@ h2 {
 .texto-img {
     font-size: 20px;
 }
+
+footer {
+    background-color: #000000;
+   
+}
+
+footer h1 {
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.horizontal-line {
+    border-left: 2px solid rgb(255, 255, 255); /* ou qualquer outra cor desejada */
+  height: 20px; /* altura desejada da linha vertical */
+  
+  color: #fff;
+}
+
+.vertical-line {
+    
+ 
+  transform: rotate(90deg);
+  color: #fff;
+}
+
+.social li {
+    display:inline
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.social li {
+    list-style: none;
+    
+}
+
+
 @media only screen and (max-width: 600px) {
     .sobre p {
         font-size: 20px;
@@ -70,8 +112,12 @@ h2 {
         height: 84vh;
         opacity: 0.4;
     }
-
-
+    .img-sobre {
+      padding-bottom: 18px;
+    }
+    footer {
+        padding-top: 24px;
+    }
   }
 
 
