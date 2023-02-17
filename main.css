@@ -66,6 +66,11 @@ h2 {
     #home .carousel p {
         font-size: 30px;
     }
+    #home .carousel img {
+        height: 84vh;
+        opacity: 0.4;
+    }
+
 
   }
 
