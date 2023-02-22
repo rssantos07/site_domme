@@ -42,3 +42,22 @@ header .navbar-brand {
     height: 91vh;
     opacity: 0.4;
 }
+
+@media only screen and (max-width: 600px) {
+    #fotos_img .titulo h1 {
+        font-size: 30px;
+    }
+    #fotos_img .titulo p {
+        font-size: 30px;
+    }
+    #fotos_img .titulo img {
+        height: 84vh;
+        opacity: 0.4;
+    }
+    .img-sobre {
+      padding-bottom: 18px;
+    }
+    footer {
+        padding-top: 24px;
+    }
+}
