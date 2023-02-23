@@ -142,3 +142,40 @@ text-decoration: none;
     color: #555252;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .gallery-video {
+      text-align: center;
+  }
+
+  .slider .row {
+      justify-content: center;
+      padding: 0;
+  }
+
+  .gallery{
+      display: inline-flex;
+  }
+
+  .gallery-video {
+    width: 80px;
+    height: auto;
+  }
+  #videos_img .titulo h1 {
+      font-size: 30px;
+  }
+  #videos_img .titulo p {
+      font-size: 30px;
+  }
+  #videos_img .titulo img {
+      height: 84vh;
+      opacity: 0.4;
+  }
+  .img-sobre {
+    padding-bottom: 18px;
+  }
+  footer {
+      padding-top: 24px;
+  }
+
+}
