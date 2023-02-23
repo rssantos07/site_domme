@@ -145,9 +145,7 @@ footer h1 {
 
 @media only screen and (max-width: 600px) {
     .gallery-video {
-        background-color: red;
         text-align: center;
-     
     }
 
     .slider .row {
@@ -158,21 +156,24 @@ footer h1 {
     .video-container video {
         width: 100px;
     }
+    #sessao_img .titulo h1 {
+        font-size: 30px;
+    }
+    #sessao_img .titulo p {
+        font-size: 30px;
+    }
+    #sessao_img .titulo img {
+        height: 84vh;
+        opacity: 0.4;
+    }
+    .img-sobre {
+      padding-bottom: 18px;
+    }
+    footer {
+        padding-top: 24px;
+    }
 
 }
 
-@media only screen and (max-width: 820px) {
-    .gallery-video {
-        background-color: red;
-        
-       
-    }
 
-    .slider .row {
-        
-        padding: 0;
-    }
 
-   
-
-}

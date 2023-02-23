@@ -35,12 +35,71 @@ header .navbar-brand {
     font-size: 40px;
 }
 
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Cinzel', serif;
+}
+
 #fotos_img {
     background-color: #000000;
 }
 #fotos_img img{
     height: 91vh;
     opacity: 0.4;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer h1 {
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-heading a{
+color: #fff;
+text-decoration: none;
+}
+
+.horizontal-line {
+    border-left: 2px solid rgb(255, 255, 255);
+  height: 20px; 
+  
+  color: #fff;
+}
+
+.vertical-line {
+  transform: rotate(90deg);
+  color: #fff;
+}
+
+.social li {
+    display:inline
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+}
+
+.social li {
+    list-style: none;
+    
+}
+
+.copyright {
+    color: #fff;
+}
+
+.copyright a{
+    color: #555252;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {

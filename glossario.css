@@ -1,0 +1,195 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    
+
+}
+
+.navbar {
+    font-family: 'Cinzel', serif;
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+header .container .nav .nav-link,
+header .navbar-brand {
+    color: #fff;
+}
+
+.titulo h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+}
+
+.titulo p {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+} 
+
+ h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Cinzel', serif;
+} 
+
+#glossario_img {
+    background-color: #000000;
+}
+
+#glossario_img img {
+    height: 91vh;
+    opacity: 0.4;
+}
+
+#glossario p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#glossario {
+    padding-bottom: 24px;
+}
+
+.lista li {
+    padding: 14px 30px;
+    list-style: none;
+
+}
+
+.sub-lista {
+    padding-top: 10px;
+}
+
+
+.sub-lista li{
+    padding-top: 0;
+}
+
+
+footer {
+    background-color: #000000;
+
+}
+
+footer h1 {
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.horizontal-line {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 20px;
+
+    color: #fff;
+}
+
+.vertical-line {
+    transform: rotate(90deg);
+    color: #fff;
+}
+
+.social li {
+    display: inline
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+}
+
+.social li {
+    list-style: none;
+
+}
+
+.copyright {
+    color: #fff;
+}
+
+.copyright a {
+    color: #555252;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    #glossario_img .titulo h1 {
+        font-size: 30px;
+    }
+    #glossario_img .titulo p {
+        font-size: 30px;
+    }
+    #glossario_img .titulo img {
+        height: 84vh;
+        opacity: 0.4;
+    }
+   
+    footer {
+        padding-top: 24px;
+    }
+
+}
+
+
+
+
+
+.carousel {
+    width: 70%;
+    margin: 20px auto;
+  }
+  
+  .slick-slide {
+    margin: 0 0px;
+    margin-bottom: 16px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 20px;
+   
+    
+  }
+ 
+  
+  .slick-prev:before, .slick-next:before {
+    background-color: rgb(0, 0, 0);
+   
+  }
+  
+  @media (max-width: 767px) {
+    .carousel {
+      width: 100%;
+    }
+    
+    .slick-slide {
+      margin: 10 0px;
+    }
+  }
+  
