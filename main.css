@@ -72,17 +72,6 @@ color: #fff;
 text-decoration: none;
 }
 
-.horizontal-line {
-    border-left: 2px solid rgb(255, 255, 255);
-  height: 20px; 
-  
-  color: #fff;
-}
-
-.vertical-line {
-  transform: rotate(90deg);
-  color: #fff;
-}
 
 .social li {
     display:inline
@@ -107,7 +96,11 @@ text-decoration: none;
     color: #555252;
     text-decoration: none;
 }
-
+ 
+.social li a img {
+   width: 80px;
+}
+ 
 @media only screen and (max-width: 600px) {
     .sobre p {
         font-size: 20px;
@@ -130,9 +123,31 @@ text-decoration: none;
     footer {
         padding-top: 24px;
     }
+    .whatsapp {
+        position: fixed;
+        bottom: 200px;
+        right: 20px;
+        z-index: 999;
+        font-size: 50px;
+      }
+      .social li a img {
+        width: 40px;
+     }
   }
 
 
+  .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    font-size: 50px;
+    padding: 8px;
+    border-radius: 10px;
+  }
 
+  .whatsapp i {
+    color: #04f810;
+  }
 
 

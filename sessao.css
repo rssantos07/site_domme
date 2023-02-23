@@ -62,11 +62,6 @@ h2 {
     padding-bottom: 24px;
 }
 
-#slider video {
-    height: 300px;
-    object-fit: cover;
-    background-color: red;
-}
 
 footer {
     background-color: #000000;
@@ -124,12 +119,7 @@ footer h1 {
 .slider .row {
     justify-content: center;
     padding: 10px 250px;
-
-
-
 }
-
-
 
 .video-container {
     position: relative;
@@ -142,6 +132,11 @@ footer h1 {
     transform: translate(-50%, -50%);
     z-index: 10;
 }
+
+.social li a img {
+    width: 80px;
+ }
+
 
 @media only screen and (max-width: 600px) {
     .gallery-video {
@@ -172,8 +167,29 @@ footer h1 {
     footer {
         padding-top: 24px;
     }
+    .video-container video {
+        width: 90px;
+    }
+    .social li a img {
+        width: 40px;
+     }
 
 }
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    font-size: 50px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .whatsapp i {
+    color: #04f810;
+  }
+
 
 
 

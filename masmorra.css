@@ -109,6 +109,10 @@ text-decoration: none;
     text-decoration: none;
 }
 
+.social li a img {
+    width: 80px;
+ }
+
 @media only screen and (max-width: 600px) {
     #masmorra_img .titulo h1 {
         font-size: 30px;
@@ -126,4 +130,7 @@ text-decoration: none;
     footer {
         padding-top: 24px;
     }
+    .social li a img {
+        width: 40px;
+     }
 }

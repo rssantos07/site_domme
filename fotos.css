@@ -101,6 +101,9 @@ text-decoration: none;
     color: #555252;
     text-decoration: none;
 }
+.social li a img {
+    width: 80px;
+ }
 
 @media only screen and (max-width: 600px) {
     #fotos_img .titulo h1 {
@@ -119,4 +122,7 @@ text-decoration: none;
     footer {
         padding-top: 24px;
     }
+    .social li a img {
+        width: 40px;
+     }
 }
